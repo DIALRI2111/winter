@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pesan Untukmu</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Pesan Untukmu</h1>
+    <p>Aku ingin menyampaikan sesuatu, dan kamu juga bisa balas di sini 😊</p>
+  </header>
+
+  <main>
+    <section class="my-message">
+      <h2>Pesanku</h2>
+      <p>Rani, terima kasih sudah menjadi bagian penting dalam hidupku. Setahun ini tanpa bertemu membuatku sadar betapa berharganya waktu bersama. Aku harap kita bisa segera bertemu lagi.</p>
+    </section>
+
+    <section class="reply-section">
+      <h2>Balasanmu</h2>
+      <form id="replyForm">
+        <textarea id="replyInput" placeholder="Tulis balasanmu di sini..." required></textarea>
+        <button type="submit">Kirim Balasan</button>
+      </form>
+      <div id="replies"></div>
+    </section>
+
+    <a href="index.html" class="back-button">⬅️ Kembali ke Beranda</a>
+  </main>
+
+  <footer>
+    <p>Tak ada jarak bagi hati yang saling mengingat.</p>
+  </footer>
+
+  <script src="pesan.js"></script>
+</body>
+</html>
